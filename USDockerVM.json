@@ -59,7 +59,7 @@
     "diskStorageType": "Standard_LRS",
     "publicIPAddressName": "myPublicIPD",
     "publicIPAddressType": "Dynamic",
-    "vmName": "USDockerVM",
+    "vmName": "polUSDockerVM",
     "virtualNetworkName": "MyVNETD",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
   },
